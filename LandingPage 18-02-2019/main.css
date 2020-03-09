@@ -1,0 +1,131 @@
+.menu{
+float: left;
+background-color: black;
+width: 100% ;
+overflow: hidden;
+top: 0;
+position: fixed;
+padding: 10px;
+
+}
+
+
+.menu a{
+
+font-size: 20px;
+color: white;
+text-decoration: none;
+text-align: center;
+margin: 20px;
+vertical-align: center;
+
+
+
+}
+
+
+.menu a:hover{
+
+background-color: lightblue; 
+
+}
+
+
+.vocimenu{float: left;
+width: 90%;
+padding: 10px;
+text-align: center;}
+
+
+.immagine img {
+
+vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+
+
+
+
+.imgtesto h2{
+    background-image: url('527241.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    margin-top: -2px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 360px;
+    font-size: 38px;
+    color: white;
+
+}
+
+
+
+.paragrafi {
+
+float: left;
+margin:25px;
+width: 27%;
+text-align: center;
+border: 2px black solid;
+padding: 20px;
+
+}
+
+
+
+
+
+.paragrafi img {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    border: 2px black solid;
+    padding: 3px;
+}
+
+
+
+.paragrafo{
+    display: none;
+}
+
+
+.vari {
+text-align: center;
+
+}
+
+.button {
+
+    background-color: black;
+    color: white;
+    border-radius:10px;
+    font-size: 20px;
+    padding: 10px;  
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .paragrafi {
+        
+            width: 100%;
+            margin: 20px;
+          
+    }
+  }
+
+
+  @media only screen and (min-width: 600px) {
+    .paragrafi{
+
+        width: 50%;
+    }
+  }
